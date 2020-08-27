@@ -81,7 +81,7 @@ class _HomePageState extends State<HomePage> {
               top: 100,
               left: 160,
               child: Column(
-                mainAxisAlignment: MainAxisAlignment.center,
+                //mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Align(
                     alignment: Alignment.center,
@@ -93,6 +93,29 @@ class _HomePageState extends State<HomePage> {
                               fontWeight: FontWeight.w400),
                         )),
                   ),
+                  SizedBox(
+                    height: 30,
+                  ),
+                  Text(
+                      'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
+                      style: GoogleFonts.montserrat(
+                        textStyle: TextStyle(
+                          color: Colors.white,
+                          //fontSize: 60,
+                          // fontWeight: FontWeight.w400),
+                        ),
+                      )),
+                  SizedBox(
+                    height: 10,
+                  ),
+                  /* Text(
+                      'Specific fields of interest include : Machine Learning          \nDeep Learning | Computer Vision | Jenkins | Docker \nKubernetes | Git & GitHub | AWS & OpenStack cloud \nTerraform | OpenShift | RedHat Linux etc.',
+                      style: GoogleFonts.montserrat(
+                        textStyle: TextStyle(
+                            color: Colors.white,
+                            //fontSize: 60,
+                            fontWeight: FontWeight.w200),
+                      )),*/
                 ],
               ),
             ),
