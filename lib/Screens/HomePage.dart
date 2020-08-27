@@ -1,3 +1,4 @@
+import 'package:custom_navigation_drawer/custom_navigation_drawer.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -13,16 +14,17 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(
         width: double.infinity,
-        padding: EdgeInsets.fromLTRB(50, 30, 50, 20),
+        padding: EdgeInsets.fromLTRB(0, 0, 30, 0),
         decoration: BoxDecoration(
             color: Colors.black, //Color(0xFF141414),
             image: DecorationImage(
               image: NetworkImage(
-                  "https://i.ytimg.com/vi/T_Ut3V9fmcM/maxresdefault.jpg"),
+                  "https://www.andrew-mason.com/wp-content/uploads/2013/05/Portrait-Photography-5.jpg"),
               fit: BoxFit.fitHeight,
             )),
         child: Stack(
           children: <Widget>[
+            CollapsingNavigationDrawer(),
             Column(
               children: <Widget>[
                 SizedBox(
@@ -31,8 +33,8 @@ class _HomePageState extends State<HomePage> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.spaceBetween,
                   children: <Widget>[
-                    Text('Coming Soon',
-                        style: TextStyle(fontWeight: FontWeight.w600)),
+                    /*Text('Coming Soon',
+                        style: TextStyle(fontWeight: FontWeight.w600)),*/
                     Spacer(),
                     FlatButton(
                       onPressed: () {},
@@ -80,20 +82,16 @@ class _HomePageState extends State<HomePage> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Text('Gaurav                        ',
-                      style: GoogleFonts.lato(
-                        textStyle: TextStyle(
-                            color: Colors.white,
-                            fontSize: 100,
-                            fontWeight: FontWeight.w900),
-                      )),
-                  Text('                          Yadav',
-                      style: GoogleFonts.lato(
-                        textStyle: TextStyle(
-                            color: Colors.white,
-                            fontSize: 100,
-                            fontWeight: FontWeight.w900),
-                      )),
+                  Align(
+                    alignment: Alignment.center,
+                    child: Text('Gaurav \n                           Yadav',
+                        style: GoogleFonts.roboto(
+                          textStyle: TextStyle(
+                              color: Colors.white,
+                              fontSize: 80,
+                              fontWeight: FontWeight.w900),
+                        )),
+                  ),
                 ],
               ),
             ),
