@@ -1,4 +1,4 @@
-import 'package:custom_navigation_drawer/custom_navigation_drawer.dart';
+import 'package:Portfolio/Screens/HomePage/SideBar.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -24,7 +24,7 @@ class _HomePageState extends State<HomePage> {
             )),
         child: Stack(
           children: <Widget>[
-            CollapsingNavigationDrawer(),
+            SideBar(),
             Column(
               children: <Widget>[
                 SizedBox(
@@ -95,33 +95,6 @@ class _HomePageState extends State<HomePage> {
                 ],
               ),
             ),
-            Align(
-              alignment: Alignment.bottomLeft,
-              child: Row(
-                children: <Widget>[
-                  IconButton(
-                      icon: FaIcon(FontAwesomeIcons.instagram),
-                      onPressed: () {
-                        print("Pressed");
-                      }),
-                  IconButton(
-                      icon: FaIcon(FontAwesomeIcons.medium),
-                      onPressed: () {
-                        print("Pressed");
-                      }),
-                  IconButton(
-                      icon: FaIcon(FontAwesomeIcons.github),
-                      onPressed: () {
-                        print("Pressed");
-                      }),
-                  IconButton(
-                      icon: FaIcon(FontAwesomeIcons.linkedin),
-                      onPressed: () {
-                        print("Pressed");
-                      })
-                ],
-              ),
-            )
           ],
         ),
       ),
