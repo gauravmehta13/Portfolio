@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+import 'dart:html' as html;
 
 class SideBar extends StatelessWidget {
   @override
@@ -24,7 +25,8 @@ class SideBar extends StatelessWidget {
           IconButton(
               icon: FaIcon(FontAwesomeIcons.instagram),
               onPressed: () {
-                print("Pressed");
+                html.window
+                    .open('https://www.instagram.com/0kthnxbye/', 'new tab');
               }),
           IconButton(
               icon: FaIcon(FontAwesomeIcons.github),

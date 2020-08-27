@@ -1,4 +1,5 @@
 import 'package:Portfolio/Screens/HomePage/SideBar.dart';
+import 'package:Portfolio/Screens/Projects.dart';
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -37,7 +38,9 @@ class _HomePageState extends State<HomePage> {
                         style: TextStyle(fontWeight: FontWeight.w600)),*/
                     Spacer(),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/Resume');
+                      },
                       child: Text(
                         'Resume',
                         style: TextStyle(fontWeight: FontWeight.w600),
@@ -47,7 +50,9 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/Blog');
+                      },
                       child: Text(
                         'Blog',
                         style: TextStyle(fontWeight: FontWeight.w600),
@@ -57,7 +62,9 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/Projects');
+                      },
                       child: Text(
                         'Projects',
                         style: TextStyle(fontWeight: FontWeight.w600),
@@ -67,7 +74,9 @@ class _HomePageState extends State<HomePage> {
                       width: 10,
                     ),
                     FlatButton(
-                      onPressed: () {},
+                      onPressed: () {
+                        Navigator.pushNamed(context, '/ContactMe');
+                      },
                       child: Text(
                         'Contact Me',
                         style: TextStyle(fontWeight: FontWeight.w600),
