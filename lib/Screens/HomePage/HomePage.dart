@@ -44,7 +44,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 10,
                     ),
                     FlatButton(
                       onPressed: () {},
@@ -54,7 +54,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 10,
                     ),
                     FlatButton(
                       onPressed: () {},
@@ -64,7 +64,7 @@ class _HomePageState extends State<HomePage> {
                       ),
                     ),
                     SizedBox(
-                      width: 20,
+                      width: 10,
                     ),
                     FlatButton(
                       onPressed: () {},
@@ -77,19 +77,20 @@ class _HomePageState extends State<HomePage> {
                 )
               ],
             ),
-            Align(
-              alignment: Alignment.bottomCenter,
+            Positioned(
+              top: 100,
+              left: 160,
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
                   Align(
                     alignment: Alignment.center,
-                    child: Text('Gaurav \n                           Yadav',
-                        style: GoogleFonts.roboto(
+                    child: Text('Hello, I\u0027m\nGaurav Yadav',
+                        style: GoogleFonts.montserrat(
                           textStyle: TextStyle(
                               color: Colors.white,
-                              fontSize: 80,
-                              fontWeight: FontWeight.w900),
+                              fontSize: 60,
+                              fontWeight: FontWeight.w400),
                         )),
                   ),
                 ],

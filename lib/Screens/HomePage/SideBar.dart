@@ -18,16 +18,11 @@ class SideBar extends StatelessWidget {
           ),
           RotatedBox(
             quarterTurns: 3,
-            child: Text('Welcome To My Website'),
+            child: Text('Welcome  To  My  Website'),
           ),
           Spacer(),
           IconButton(
               icon: FaIcon(FontAwesomeIcons.instagram),
-              onPressed: () {
-                print("Pressed");
-              }),
-          IconButton(
-              icon: FaIcon(FontAwesomeIcons.medium),
               onPressed: () {
                 print("Pressed");
               }),
