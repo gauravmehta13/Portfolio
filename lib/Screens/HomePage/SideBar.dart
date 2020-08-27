@@ -31,12 +31,13 @@ class SideBar extends StatelessWidget {
           IconButton(
               icon: FaIcon(FontAwesomeIcons.github),
               onPressed: () {
-                print("Pressed");
+                html.window.open('https://github.com/gauravmehta13', 'new tab');
               }),
           IconButton(
               icon: FaIcon(FontAwesomeIcons.linkedin),
               onPressed: () {
-                print("Pressed");
+                html.window.open(
+                    'https://www.linkedin.com/in/gauravmehta13/', 'new tab');
               })
         ],
       ),
