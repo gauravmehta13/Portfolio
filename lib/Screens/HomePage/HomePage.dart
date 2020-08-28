@@ -55,8 +55,9 @@ class _HomePageState extends State<HomePage> {
                     Row(
                       mainAxisAlignment: MainAxisAlignment.spaceBetween,
                       children: <Widget>[
-                        /*Text('Coming Soon',
-                            style: TextStyle(fontWeight: FontWeight.w600)),*/
+                        SizedBox(
+                          width: 60,
+                        ),
                         Spacer(),
                         FlatButton(
                           onPressed: () {
@@ -113,11 +114,13 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Row(
                       children: [
-                        SizedBox(width: 80),
+                        SizedBox(width: 60),
                         Container(
+                          // color: Colors.blue,
                           width: MediaQuery.of(context).size.width / 2,
                           alignment: Alignment.topLeft,
                           child: Column(
+                            //mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Align(
                                 alignment: Alignment.center,
