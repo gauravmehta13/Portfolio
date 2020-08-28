@@ -1,7 +1,5 @@
 import 'package:Portfolio/Screens/HomePage/SideBar.dart';
-import 'package:Portfolio/Screens/Projects.dart';
 import 'package:flutter/material.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 
 class HomePage extends StatefulWidget {
@@ -18,11 +16,6 @@ class _HomePageState extends State<HomePage> {
         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
         decoration: BoxDecoration(
           color: Colors.black, //Color(0xFF141414),
-          /* image: DecorationImage(
-              image: NetworkImage(
-                  "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/PicsArt_08-28-07.33.52.jpg"),
-              fit: BoxFit.fitHeight,
-            )*/
         ),
         child: Stack(
           children: <Widget>[
