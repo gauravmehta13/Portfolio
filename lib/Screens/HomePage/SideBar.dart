@@ -10,7 +10,7 @@ class SideBar extends StatelessWidget {
       child: Column(
         children: <Widget>[
           IconButton(
-              icon: Icon(Icons.menu),
+              icon: Icon(Icons.home),
               onPressed: () {
                 print("Pressed");
               }),
