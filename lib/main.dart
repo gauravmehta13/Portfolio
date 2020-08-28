@@ -15,9 +15,9 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        //initialRoute: '/',
+        initialRoute: '/Blog',
         routes: {
-          //  '/': (context) => HomePage(),
+          '/': (context) => HomePage(),
           '/Resume': (context) => Resume(),
           '/Blog': (context) => Blog(),
           '/Projects': (context) => Projects(),
@@ -25,7 +25,7 @@ class MyApp extends StatelessWidget {
         },
         debugShowCheckedModeBanner: false,
         title: 'Portfolio App',
-        theme: ThemeData.dark(),
-        home: HomePage());
+        theme: ThemeData.dark());
+    //home: HomePage());
   }
 }

@@ -15,16 +15,48 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: Container(
         width: double.infinity,
-        padding: EdgeInsets.fromLTRB(0, 0, 30, 0),
+        padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
         decoration: BoxDecoration(
-            color: Colors.black, //Color(0xFF141414),
-            image: DecorationImage(
+          color: Colors.black, //Color(0xFF141414),
+          /* image: DecorationImage(
               image: NetworkImage(
-                  "https://www.andrew-mason.com/wp-content/uploads/2013/05/Portrait-Photography-5.jpg"),
+                  "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/PicsArt_08-28-07.33.52.jpg"),
               fit: BoxFit.fitHeight,
-            )),
+            )*/
+        ),
         child: Stack(
           children: <Widget>[
+            SingleChildScrollView(
+              child: Align(
+                alignment: Alignment.bottomRight,
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.end,
+                  mainAxisSize: MainAxisSize.max,
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: <Widget>[
+                    Image(
+                      image: NetworkImage(
+                        "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/PicsArt_08-28-08.19.59.jpg",
+                      ),
+                      fit: BoxFit.fitWidth,
+                    )
+                  ],
+                ),
+              ),
+            ),
+            /* Align(
+              alignment: Alignment.topRight,
+              child: Container(
+                width: 600,
+                decoration: BoxDecoration(
+                    color: Colors.black, //Color(0xFF141414),
+                    image: DecorationImage(
+                      image: NetworkImage(
+                          "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/PicsArt_08-28-08.19.59.jpg"),
+                      fit: BoxFit.fitHeight,
+                    )),
+              ),
+            ),*/
             SideBar(),
             Column(
               children: <Widget>[
@@ -81,6 +113,9 @@ class _HomePageState extends State<HomePage> {
                         'Contact Me',
                         style: TextStyle(fontWeight: FontWeight.w600),
                       ),
+                    ),
+                    SizedBox(
+                      width: 20,
                     )
                   ],
                 )
@@ -109,9 +144,7 @@ class _HomePageState extends State<HomePage> {
                       'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
                       style: GoogleFonts.montserrat(
                         textStyle: TextStyle(
-                          color: Colors.white,
-                          //fontSize: 60,
-                          // fontWeight: FontWeight.w400),
+                          color: Colors.grey[700],
                         ),
                       )),
                   SizedBox(
