@@ -8,7 +8,7 @@ class ContactMe extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        backgroundColor: Colors.black,
+        backgroundColor: Color(0xFF141414),
         elevation: 0,
         actions: <Widget>[
           /* IconButton(
