@@ -107,13 +107,11 @@ class _HomePageState extends State<HomePage> {
                     ),
                     Row(
                       children: [
-                        SizedBox(width: 60),
+                        SizedBox(width: 80),
                         Container(
-                          // color: Colors.blue,
                           width: MediaQuery.of(context).size.width / 2,
                           alignment: Alignment.topLeft,
                           child: Column(
-                            //mainAxisAlignment: MainAxisAlignment.center,
                             children: [
                               Align(
                                 alignment: Alignment.center,
