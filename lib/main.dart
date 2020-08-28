@@ -1,4 +1,4 @@
-import 'package:Portfolio/Screens/Blog.dart';
+import 'package:Portfolio/Screens/Blog/Blog.dart';
 import 'package:Portfolio/Screens/ContactMe.dart';
 import 'package:Portfolio/Screens/Projects.dart';
 import 'package:flutter/material.dart';
@@ -26,6 +26,5 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Portfolio App',
         theme: ThemeData.dark());
-    //home: HomePage());
   }
 }
