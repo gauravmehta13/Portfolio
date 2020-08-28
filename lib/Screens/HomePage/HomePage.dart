@@ -29,7 +29,7 @@ class _HomePageState extends State<HomePage> {
                   children: <Widget>[
                     Image(
                       image: NetworkImage(
-                        "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/PicsArt_08-28-08.19.59.jpg",
+                        "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/Assets/HomeView.jpg",
                       ),
                       fit: BoxFit.fitWidth,
                     )
