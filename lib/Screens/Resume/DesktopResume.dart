@@ -3,7 +3,7 @@ import 'dart:html' as html;
 
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 
-class Resume extends StatelessWidget {
+class DesktopResume extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,7 +21,7 @@ class Resume extends StatelessWidget {
             label: Text('Download'),
           )),
       body: SingleChildScrollView(
-        padding: EdgeInsets.all(20),
+        padding: EdgeInsets.symmetric(horizontal: 200),
         child: Column(
           children: <Widget>[
             Image.network(

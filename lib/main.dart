@@ -4,7 +4,7 @@ import 'package:Portfolio/Screens/Projects.dart';
 import 'package:flutter/material.dart';
 
 import 'Screens/HomePage/HomePage.dart';
-import 'Screens/Resume.dart';
+import 'Screens/Resume/Resume.dart';
 
 void main() {
   runApp(MyApp());
