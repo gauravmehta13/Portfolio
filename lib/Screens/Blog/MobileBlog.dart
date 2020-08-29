@@ -8,7 +8,7 @@ class MobileBlog extends StatefulWidget {
 class _MobileBlogState extends State<MobileBlog> {
   @override
   Widget build(BuildContext context) {
-    return new Scaffold(
+    return Scaffold(
         appBar: AppBar(
           title: Text('Blog'),
           centerTitle: true,
