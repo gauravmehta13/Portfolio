@@ -41,9 +41,6 @@ class _HomePageState extends State<HomePage> {
             SideBar(),
             Column(
               children: <Widget>[
-                SizedBox(
-                  height: 10,
-                ),
                 Column(
                   children: [
                     Topbar(),

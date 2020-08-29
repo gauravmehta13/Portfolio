@@ -9,13 +9,8 @@ class SideBar extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
       child: Column(
         children: <Widget>[
-          IconButton(
-              icon: Icon(Icons.home),
-              onPressed: () {
-                print("Pressed");
-              }),
           SizedBox(
-            height: 20,
+            height: 60,
           ),
           RotatedBox(
             quarterTurns: 3,
