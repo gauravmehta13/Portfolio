@@ -14,7 +14,7 @@ class SideBar extends StatelessWidget {
           ),
           RotatedBox(
             quarterTurns: 3,
-            child: Text('Welcome  To  My  Website'),
+            child: Text('Welcome  To  My  Portfolio'),
           ),
           Spacer(),
           IconButton(

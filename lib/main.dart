@@ -1,8 +1,9 @@
 import 'package:Portfolio/Screens/Blog/Blog.dart';
 import 'package:Portfolio/Screens/ContactMe/ContactMe.dart';
-import 'package:Portfolio/Screens/Projects.dart';
+
 import 'package:flutter/material.dart';
 
+import 'TabBar Unused.dart';
 import 'Screens/HomePage/HomePage.dart';
 import 'Screens/Resume/Resume.dart';
 
@@ -20,7 +21,6 @@ class MyApp extends StatelessWidget {
           '/': (context) => HomePage(),
           '/Resume': (context) => Resume(),
           '/Blog': (context) => Blog(),
-          '/Projects': (context) => Projects(),
           '/ContactMe': (context) => ContactMe(),
         },
         debugShowCheckedModeBanner: false,

@@ -32,7 +32,9 @@ class _MobileBlogState extends State<MobileBlog> {
               ),
               elevation: 15,
               child: MaterialButton(
-                onPressed: () {},
+                onPressed: () {
+                  html.window.open(blogdata[index]['onpressedurl'], 'new tab');
+                },
                 padding: EdgeInsets.all(0),
                 child: Column(
                   children: <Widget>[
