@@ -12,6 +12,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
+          toolbarHeight: 60,
           automaticallyImplyLeading: false,
           actions: <Widget>[Topbar()],
         ),
