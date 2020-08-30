@@ -22,43 +22,41 @@ class Topbar extends StatelessWidget {
                         Navigator.pushNamed(context, '/');
                       }),
                   Spacer(),
-                  Container(
-                    width: MediaQuery.of(context).size.width / 3,
-                    child: Row(
-                      children: [
-                        Spacer(),
-                        FlatButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/Resume');
-                          },
-                          child: Text(
-                            'Resume',
-                            style: TextStyle(fontWeight: FontWeight.w600),
-                          ),
-                        ),
-                        Spacer(),
-                        FlatButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/Blog');
-                          },
-                          child: Text(
-                            'Blog',
-                            style: TextStyle(fontWeight: FontWeight.w600),
-                          ),
-                        ),
-                        Spacer(),
-                        FlatButton(
-                          onPressed: () {
-                            Navigator.pushNamed(context, '/ContactMe');
-                          },
-                          child: Text(
-                            'Contact Me',
-                            style: TextStyle(fontWeight: FontWeight.w600),
-                          ),
-                        ),
-                        Spacer(),
-                      ],
+                  FlatButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/Resume');
+                    },
+                    child: Text(
+                      'Resume',
+                      style: TextStyle(fontWeight: FontWeight.w600),
                     ),
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  FlatButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/Blog');
+                    },
+                    child: Text(
+                      'Blog',
+                      style: TextStyle(fontWeight: FontWeight.w600),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  FlatButton(
+                    onPressed: () {
+                      Navigator.pushNamed(context, '/ContactMe');
+                    },
+                    child: Text(
+                      'Contact Me',
+                      style: TextStyle(fontWeight: FontWeight.w600),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 20,
                   ),
                 ]),
           ],

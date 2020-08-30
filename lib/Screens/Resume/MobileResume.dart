@@ -8,6 +8,7 @@ class MobileResume extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        elevation: 0,
         centerTitle: true,
         title: Text('Resume'),
         backgroundColor: Color(0xFF313c4e),
