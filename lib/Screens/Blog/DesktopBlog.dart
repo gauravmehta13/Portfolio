@@ -1,3 +1,5 @@
+import 'package:Portfolio/Topbar.dart';
+import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 
 class DesktopBlog extends StatefulWidget {
@@ -10,8 +12,8 @@ class _DesktopBlogState extends State<DesktopBlog> {
   Widget build(BuildContext context) {
     return Scaffold(
         appBar: AppBar(
-          title: Text('Blog'),
-          centerTitle: true,
+          automaticallyImplyLeading: false,
+          actions: <Widget>[Topbar()],
         ),
         body: GridView.builder(
           itemCount: 10,
