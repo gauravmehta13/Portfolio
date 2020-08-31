@@ -77,7 +77,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 15,
+                                      fontSize: 13,
                                       fontWeight: FontWeight.w300),
                                 )),
                             Spacer(),
