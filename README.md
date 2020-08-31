@@ -5,8 +5,6 @@
 <p align="center">
   <a href="http://hits.dwyl.com/gauravmehta13/Portfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gauravmehta13/Portfolio.svg" /></a>
   <a href="https://flutter.dev/"><img alt="Made With Flutter" src="https://img.shields.io/badge/Made%20with-Flutter-blue" /></a>
-  <a href="https://github.com/prettier/prettier"><img alt="code style: prettier" src="https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square?style=flat-square" /></a>
-  <br/>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://gauravmehta13.github.io/Portfolio/"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
