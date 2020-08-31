@@ -1,9 +1,9 @@
 <h1 align="center"> My Portfolio 🔥 </h1> 
 
 <h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio </h3>
+[![HitCount](http://hits.dwyl.com/gauravmehta13/Portfolio.svg)](http://hits.dwyl.com/gauravmehta13/Portfolio)
 
 <p align="center">
-  [![HitCount](http://hits.dwyl.com/gauravmehta13/Portfolio.svg)](http://hits.dwyl.com/gauravmehta13/Portfolio)
   <a href="http://hits.dwyl.com/gauravmehta13/Portfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gauravmehta13/Portfolio.svg" /></a>
   <a href="https://flutter.dev/"><img alt="Made With Flutter" src="https://img.shields.io/badge/Made%20with-Flutter-blue" /></a>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
