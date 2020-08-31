@@ -1,7 +1,9 @@
 <h1 align="center"> My Portfolio 🔥 </h1> 
 
 <h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio </h3>
+
 [![HitCount](http://hits.dwyl.com/gauravmehta13/Portfolio.svg)](http://hits.dwyl.com/gauravmehta13/Portfolio)
+
 
 <p align="center">
   <a href="http://hits.dwyl.com/gauravmehta13/Portfolio"><img alt="HitCounts" src="http://hits.dwyl.com/gauravmehta13/Portfolio.svg" /></a>
