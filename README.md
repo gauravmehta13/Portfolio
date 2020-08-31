@@ -1,6 +1,6 @@
 <h1 align="center"> My Portfolio 🔥 </h1> 
 
-<h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio \n Made using Flutter </h3>
+<h3 align="center"> A clean, beautiful, responsive and 100% customizable portfolio /n Made using Flutter </h3>
 
 
 <p align="center">
