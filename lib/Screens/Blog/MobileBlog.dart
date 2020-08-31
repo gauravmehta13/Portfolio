@@ -48,7 +48,7 @@ class _MobileBlogState extends State<MobileBlog> {
                           ),
                         ),
                         child: Image(
-                            fit: BoxFit.contain,
+                            fit: BoxFit.fill,
                             image: NetworkImage(blogdata[index]['imgurl'])),
                       ),
                     ),

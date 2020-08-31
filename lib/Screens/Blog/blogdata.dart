@@ -73,7 +73,7 @@ var blogdata = [
     "subtitle":
         "Building a delivery pipeline which automates the process of model training without the intervention of humans by integrating multiple technologies like git, Docker, ML and Jenkins.",
     "imgurl":
-        "https://nealanalytics.com/wp-content/uploads/2020/05/Neal-Analytics-MLOps-Graphic-Large-1.png",
+        "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/Assets/crosser-edge-analytics-ml-ops-listimg-blog.jpg",
     "date": "May 24, 2020",
     "onpressedurl":
         "https://www.linkedin.com/pulse/hyperparameter-tuning-using-mlops-gaurav-yadav/",
