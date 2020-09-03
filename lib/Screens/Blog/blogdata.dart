@@ -1,5 +1,15 @@
 var blogdata = [
   {
+    "title": "Publishing Flutter apps to Play Store easily.",
+    "subtitle":
+        "Publishing Flutter apps to play store is a quite challenging and complex task if done using the Official documentation provided.Here, I showed a much simple way to publish Flutter apps on play store.",
+    "imgurl":
+        "https://cdn0.tnwcdn.com/wp-content/blogs.dir/1/files/2020/02/Google-Play-Store.jpg",
+    "date": "Spet 3, 2020",
+    "onpressedurl":
+        "https://medium.com/@gauravmehta13/publishing-flutter-apps-to-play-store-easily-4dfff6ab7804"
+  },
+  {
     "title": "Msic player built with flutter",
     "subtitle":
         "Made a Music Player using Flutter.This app has inbuilt access to Youtube Music, Gaana, Wynk Music and Jio Saavn . You can also run local Music Using this app",
