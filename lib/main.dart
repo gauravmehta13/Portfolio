@@ -3,7 +3,6 @@ import 'package:Portfolio/Screens/ContactMe/ContactMe.dart';
 
 import 'package:flutter/material.dart';
 
-import 'Screens/HomePage/DesktopHomePage.dart';
 import 'TabBar Unused.dart';
 import 'Screens/HomePage/HomePage.dart';
 import 'Screens/Resume/Resume.dart';
@@ -19,7 +18,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         initialRoute: '/',
         routes: {
-          '/': (context) => FutureBuilderWidget(),
+          '/': (context) => HomePage(),
           '/Resume': (context) => Resume(),
           '/Blog': (context) => Blog(),
           '/ContactMe': (context) => ContactMe(),
