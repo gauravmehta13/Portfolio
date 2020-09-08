@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
+import 'package:websafe_svg/websafe_svg.dart';
 import 'dart:html' as html;
 import '../../TopBar.dart';
 
@@ -26,9 +27,11 @@ class DesktopContactMe extends StatelessWidget {
               Row(
                 children: <Widget>[
                   Container(
+                    padding: EdgeInsets.fromLTRB(30, 0, 20, 0),
                     //color: Colors.red,
-                    width: MediaQuery.of(context).size.width * 0.45,
+                    width: MediaQuery.of(context).size.width / 2,
                     height: MediaQuery.of(context).size.height - 50,
+                    child: WebsafeSvg.asset('assets/contact.svg'),
                   ),
                   Container(
                     //color: Colors.blue,
@@ -184,6 +187,9 @@ class DesktopContactMe extends StatelessWidget {
                         mainAxisAlignment: MainAxisAlignment.start,
                         crossAxisAlignment: CrossAxisAlignment.center,
                         children: <Widget>[
+                          SizedBox(
+                            height: 100,
+                          ),
                           Text('Address',
                               style: GoogleFonts.montserrat(
                                 textStyle: TextStyle(
@@ -247,10 +253,23 @@ class DesktopContactMe extends StatelessWidget {
                           ),
                         ])),
                 Container(
-                  color: Colors.red,
-                  height: MediaQuery.of(context).size.height - 50,
+                  //  color: Colors.red,
+                  height: MediaQuery.of(context).size.height - 100,
+                  child: WebsafeSvg.asset('assets/address.svg',
+                      fit: BoxFit.contain),
                 ),
-              ])
+              ]),
+              Text("Made   with   ❤️   by   Gaurav",
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.montserrat(
+                    textStyle: TextStyle(
+                        color: Colors.white30,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500),
+                  )),
+              SizedBox(
+                height: 20,
+              )
             ],
           ),
         ),
