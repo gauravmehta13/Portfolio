@@ -95,14 +95,6 @@ class DesktopHomePage extends StatelessWidget {
                                         SizedBox(
                                           height: 10,
                                         ),
-                                        /* Text(
-                            'Specific fields of interest include : Machine Learning          \nDeep Learning | Computer Vision | Jenkins | Docker \nKubernetes | Git & GitHub | AWS & OpenStack cloud \nTerraform | OpenShift | RedHat Linux etc.',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  //fontSize: 60,
-                                  fontWeight: FontWeight.w200),
-                            )),*/
                                       ],
                                     ),
                                   ),

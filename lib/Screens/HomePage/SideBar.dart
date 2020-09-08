@@ -9,6 +9,11 @@ class SideBar extends StatelessWidget {
       padding: EdgeInsets.fromLTRB(0, 10, 0, 10),
       child: Column(
         children: <Widget>[
+          IconButton(
+              icon: FaIcon(FontAwesomeIcons.userAstronaut),
+              onPressed: () {
+                Navigator.pushNamed(context, '/');
+              }),
           SizedBox(
             height: 60,
           ),

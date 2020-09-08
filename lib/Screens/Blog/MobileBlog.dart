@@ -43,7 +43,7 @@ class _MobileBlogState extends State<MobileBlog> {
                     children: <Widget>[
                       Container(
                         width: double.maxFinite,
-                        height: 150,
+                        height: 120,
                         child: Card(
                           shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.all(
@@ -74,8 +74,8 @@ class _MobileBlogState extends State<MobileBlog> {
                             style: GoogleFonts.montserrat(
                               textStyle: TextStyle(
                                   color: Colors.white,
-                                  fontSize: 8,
-                                  fontWeight: FontWeight.w100),
+                                  fontSize: 9,
+                                  fontWeight: FontWeight.w200),
                             )),
                       ),
                       Spacer(),
@@ -88,7 +88,7 @@ class _MobileBlogState extends State<MobileBlog> {
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                       color: Colors.white,
-                                      fontSize: 5,
+                                      fontSize: 7,
                                       fontWeight: FontWeight.w300),
                                 )),
                           ],

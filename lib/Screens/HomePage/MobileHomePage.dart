@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
-
+import 'dart:html' as html;
 import '../../TopBar.dart';
 import 'SideBar.dart';
 
@@ -8,6 +9,7 @@ class MobileHomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
+      drawer: SideBar(),
       body: Container(
         width: MediaQuery.of(context).size.width,
         padding: EdgeInsets.fromLTRB(0, 0, 0, 0),
@@ -34,12 +36,12 @@ class MobileHomePage extends StatelessWidget {
                 ),
               ),
             ),
-            SideBar(),
+            //SideBar(),
             Column(
               children: <Widget>[
                 Column(
                   children: [
-                    Topbar(),
+                    // Topbar(),
                     SizedBox(
                       height: MediaQuery.of(context).size.height / 15,
                     ),
@@ -74,14 +76,6 @@ class MobileHomePage extends StatelessWidget {
                               SizedBox(
                                 height: 10,
                               ),
-                              /* Text(
-                          'Specific fields of interest include : Machine Learning          \nDeep Learning | Computer Vision | Jenkins | Docker \nKubernetes | Git & GitHub | AWS & OpenStack cloud \nTerraform | OpenShift | RedHat Linux etc.',
-                          style: GoogleFonts.montserrat(
-                            textStyle: TextStyle(
-                                color: Colors.white,
-                                //fontSize: 60,
-                                fontWeight: FontWeight.w200),
-                          )),*/
                             ],
                           ),
                         ),

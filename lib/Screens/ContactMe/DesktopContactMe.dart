@@ -169,7 +169,7 @@ class DesktopContactMe extends StatelessWidget {
                           onPressed: () {
                             Navigator.pushNamed(context, '/Resume');
                           },
-                          color: Colors.blueGrey,
+                          color: Color(0xFF3f3d56),
                           textColor: Colors.white,
                           child: Text("See My Resume",
                               style: TextStyle(fontSize: 14)),
@@ -246,7 +246,7 @@ class DesktopContactMe extends StatelessWidget {
                                   "https://www.google.com/maps/place/27%C2%B057'11.3%22N+76%C2%B048'17.7%22E/@27.9532014,76.8045423,18.65z/data=!4m9!1m3!11m2!2s1_az6ln5H0aywMFsHUqetpofZFwM!3e1!3m4!1s0x0:0x0!8m2!3d27.9531246!4d76.8049123",
                                   'new tab');
                             },
-                            color: Colors.blueGrey,
+                            color: Color(0xFF3f3d56),
                             textColor: Colors.white,
                             child: Text("Visit on Google Maps",
                                 style: TextStyle(fontSize: 14)),
