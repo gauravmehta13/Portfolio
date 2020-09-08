@@ -263,7 +263,7 @@ class DesktopContactMe extends StatelessWidget {
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
                     textStyle: TextStyle(
-                        color: Colors.white30,
+                        color: Colors.grey,
                         fontSize: 15,
                         fontWeight: FontWeight.w500),
                   )),
