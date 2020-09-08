@@ -13,9 +13,6 @@ class Topbar extends StatelessWidget {
             Row(
                 mainAxisAlignment: MainAxisAlignment.spaceBetween,
                 children: <Widget>[
-                  SizedBox(
-                    width: 10,
-                  ),
                   IconButton(
                       icon: Icon(Icons.home),
                       onPressed: () {
