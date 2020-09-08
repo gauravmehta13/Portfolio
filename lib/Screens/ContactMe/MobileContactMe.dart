@@ -67,7 +67,8 @@ class MobileContactMe extends StatelessWidget {
                           ),
                           onPressed: () {
                             html.window.open(
-                                'https://github.com/gauravmehta13', 'new tab');
+                                'https://www.instagram.com/gauravmehta.13/',
+                                'new tab');
                           },
                         ),
                         IconButton(
@@ -235,6 +236,20 @@ class MobileContactMe extends StatelessWidget {
                               style: TextStyle(fontSize: 14)),
                         ),
                       ])),
+              SizedBox(
+                height: 30,
+              ),
+              Text("Made  with  ❤️  by  Gaurav",
+                  textAlign: TextAlign.center,
+                  style: GoogleFonts.montserrat(
+                    textStyle: TextStyle(
+                        color: Colors.black54,
+                        fontSize: 15,
+                        fontWeight: FontWeight.w500),
+                  )),
+              SizedBox(
+                height: 10,
+              )
             ],
           ),
         ),

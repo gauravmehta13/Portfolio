@@ -44,60 +44,58 @@ class DesktopHomePage extends StatelessWidget {
             SingleChildScrollView(
               child: Align(
                 alignment: Alignment.bottomRight,
-                child: Column(
-                  crossAxisAlignment: CrossAxisAlignment.end,
-                  mainAxisSize: MainAxisSize.max,
-                  mainAxisAlignment: MainAxisAlignment.end,
+                child: Stack(
                   children: <Widget>[
                     Image(
                       image: AssetImage('assets/HomeView.jpg'),
                       fit: BoxFit.fitWidth,
-                    )
-                  ],
-                ),
-              ),
-            ),
-            SideBar(),
-            Column(
-              children: <Widget>[
-                Column(
-                  children: [
-                    Topbar(),
-                    SizedBox(
-                      height: MediaQuery.of(context).size.height / 15,
                     ),
-                    Row(
-                      children: [
-                        SizedBox(width: 80),
-                        Container(
-                          width: MediaQuery.of(context).size.width / 2,
-                          alignment: Alignment.topLeft,
-                          child: Column(
+                    Container(
+                      child: Column(
+                        children: <Widget>[
+                          SizedBox(
+                            height: 100,
+                          ),
+                          Column(
                             children: [
-                              Align(
-                                alignment: Alignment.center,
-                                child: Text('Hello, I\u0027m\nGaurav Yadav',
-                                    style: GoogleFonts.montserrat(
-                                      textStyle: TextStyle(
-                                          color: Colors.white,
-                                          fontSize: 60,
-                                          fontWeight: FontWeight.w400),
-                                    )),
-                              ),
                               SizedBox(
-                                height: 30,
+                                height: MediaQuery.of(context).size.height / 15,
                               ),
-                              Text(
-                                  'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
-                                  style: GoogleFonts.montserrat(
-                                    textStyle: TextStyle(
-                                      color: Colors.grey[700],
-                                    ),
-                                  )),
-                              SizedBox(
-                                height: 10,
-                              ),
-                              /* Text(
+                              Row(
+                                children: [
+                                  SizedBox(width: 80),
+                                  Container(
+                                    width:
+                                        MediaQuery.of(context).size.width / 2,
+                                    alignment: Alignment.topLeft,
+                                    child: Column(
+                                      children: [
+                                        Align(
+                                          alignment: Alignment.center,
+                                          child: Text(
+                                              'Hello, I\u0027m\nGaurav Yadav',
+                                              style: GoogleFonts.montserrat(
+                                                textStyle: TextStyle(
+                                                    color: Colors.white,
+                                                    fontSize: 60,
+                                                    fontWeight:
+                                                        FontWeight.w400),
+                                              )),
+                                        ),
+                                        SizedBox(
+                                          height: 30,
+                                        ),
+                                        Text(
+                                            'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
+                                            style: GoogleFonts.montserrat(
+                                              textStyle: TextStyle(
+                                                color: Colors.grey[700],
+                                              ),
+                                            )),
+                                        SizedBox(
+                                          height: 10,
+                                        ),
+                                        /* Text(
                             'Specific fields of interest include : Machine Learning          \nDeep Learning | Computer Vision | Jenkins | Docker \nKubernetes | Git & GitHub | AWS & OpenStack cloud \nTerraform | OpenShift | RedHat Linux etc.',
                             style: GoogleFonts.montserrat(
                               textStyle: TextStyle(
@@ -105,15 +103,22 @@ class DesktopHomePage extends StatelessWidget {
                                   //fontSize: 60,
                                   fontWeight: FontWeight.w200),
                             )),*/
+                                      ],
+                                    ),
+                                  ),
+                                ],
+                              ),
                             ],
-                          ),
-                        ),
-                      ],
-                    ),
+                          )
+                        ],
+                      ),
+                    )
                   ],
-                )
-              ],
+                ),
+              ),
             ),
+            Topbar(),
+            SideBar(),
           ],
         ),
       ),

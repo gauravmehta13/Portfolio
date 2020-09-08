@@ -76,7 +76,7 @@ class DesktopContactMe extends StatelessWidget {
                               ),
                               onPressed: () {
                                 html.window.open(
-                                    'https://github.com/gauravmehta13',
+                                    'https://www.instagram.com/gauravmehta.13/',
                                     'new tab');
                               },
                             ),
@@ -259,7 +259,7 @@ class DesktopContactMe extends StatelessWidget {
                       fit: BoxFit.contain),
                 ),
               ]),
-              Text("Made   with   ❤️   by   Gaurav",
+              Text("Made  with  ❤️  by  Gaurav",
                   textAlign: TextAlign.center,
                   style: GoogleFonts.montserrat(
                     textStyle: TextStyle(

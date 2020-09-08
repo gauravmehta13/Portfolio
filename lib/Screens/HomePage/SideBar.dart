@@ -20,8 +20,8 @@ class SideBar extends StatelessWidget {
           IconButton(
               icon: FaIcon(FontAwesomeIcons.instagram),
               onPressed: () {
-                html.window
-                    .open('https://www.instagram.com/0kthnxbye/', 'new tab');
+                html.window.open(
+                    'https://www.instagram.com/gauravmehta.13/', 'new tab');
               }),
           IconButton(
               icon: FaIcon(FontAwesomeIcons.github),
@@ -40,7 +40,7 @@ class SideBar extends StatelessWidget {
         color: Colors.grey[900],
       ),
       height: double.infinity,
-      width: 60,
+      width: 50,
     );
   }
 }
