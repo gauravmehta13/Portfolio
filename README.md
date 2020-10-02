@@ -6,6 +6,7 @@
 <p align="center">
   <a href="https://flutter.dev/"><img alt="Made With Flutter" src="https://img.shields.io/badge/Made%20with-Flutter-blue" /></a>
   <a href="https://travis-ci.org/badges/badgerbadgerbadger"><img alt="Build Status" src="http://img.shields.io/travis/badges/badgerbadgerbadger.svg?style=flat-square?style=flat-square" /></a>
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/5160b31b-afde-41d2-95e8-a8fa2308c6d8/deploy-status)](https://app.netlify.com/sites/gaurav13/deploys)
   <a href="https://gauravmehta13.github.io/Portfolio/"><img alt="Maintenance" src="https://img.shields.io/badge/maintained-yes-green.svg?style=flat-square" /></a>
   <a href="http://badges.mit-license.org/"><img alt="Website" src="https://img.shields.io/badge/website-up-yellow?style=flat-square" /></a>
   <a href="https://gauravmehta13.github.io/Portfolio/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
