@@ -11,8 +11,6 @@
   <a href="https://gauravmehta13.github.io/Portfolio/"><img alt="License" src="http://img.shields.io/:license-mit-blue.svg?style=flat-square?style=flat-square" /></a>
   <a href="https://img.shields.io/badge/price-free-ff69b4"><img alt="Price" src="https://img.shields.io/badge/price-free-ff69b4?style=flat-square" /></a>
 </p>
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5160b31b-afde-41d2-95e8-a8fa2308c6d8/deploy-status)](https://app.netlify.com/sites/gaurav13/deploys)
-
 ## Contributing
 
 > To get started...
