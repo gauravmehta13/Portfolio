@@ -10,7 +10,7 @@ class DesktopHomePage extends StatefulWidget {
 
 class _DesktopHomePageState extends State<DesktopHomePage> {
   double topimg = 1;
-  double toptext = 150;
+  double toptext = 1;
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -19,8 +19,8 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
         if (v is ScrollUpdateNotification) {
           //only if scroll update notification is triggered
           setState(() {
-            toptext -= v.scrollDelta / 1;
-            topimg -= v.scrollDelta / 1.5;
+            toptext -= v.scrollDelta / 1.9;
+            topimg -= v.scrollDelta / 2;
           });
         }
       },
@@ -45,22 +45,20 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                 ),
                 Positioned(
                   top: toptext,
-                  left: 50,
+                  left: 120,
                   child: Container(
                     width: MediaQuery.of(context).size.width / 2,
-                    alignment: Alignment.topLeft,
+                    padding: EdgeInsets.fromLTRB(70, 200, 30, 0),
                     child: Column(
-                      children: [
-                        Align(
-                          alignment: Alignment.center,
-                          child: Text('Hello, I\u0027m\nGaurav Yadav',
-                              style: GoogleFonts.montserrat(
-                                textStyle: TextStyle(
-                                    color: Colors.white,
-                                    fontSize: 60,
-                                    fontWeight: FontWeight.w400),
-                              )),
-                        ),
+                      crossAxisAlignment: CrossAxisAlignment.start,
+                      children: <Widget>[
+                        Text('Hello, I\u0027m\nGaurav Yadav',
+                            style: GoogleFonts.montserrat(
+                              textStyle: TextStyle(
+                                  color: Colors.white,
+                                  fontSize: 60,
+                                  fontWeight: FontWeight.w400),
+                            )),
                         SizedBox(
                           height: 30,
                         ),
@@ -68,11 +66,37 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                             'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
                             style: GoogleFonts.montserrat(
                               textStyle: TextStyle(
-                                color: Colors.grey[700],
+                                color: Colors.white38,
                               ),
                             )),
+                        SizedBox(height: 200),
+                        Text('👨🏻‍💻 About Me',
+                            style: GoogleFonts.montserrat(
+                              textStyle: TextStyle(
+                                  color: Colors.white60,
+                                  fontWeight: FontWeight.bold),
+                            )),
+                        SizedBox(height: 20),
+                        Text(
+                            '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
+                            style: GoogleFonts.montserrat(
+                              textStyle: TextStyle(color: Colors.white54),
+                            )),
+                        SizedBox(height: 200),
+                        Text('🛠 Tech Stack',
+                            style: GoogleFonts.montserrat(
+                              textStyle: TextStyle(
+                                  color: Colors.white60,
+                                  fontWeight: FontWeight.bold),
+                            )),
+                        SizedBox(height: 20),
                         SizedBox(
-                          height: 10,
+                          height: 300,
+                          child: Text(
+                              "•💻   Python | Dart | Flutter\n\n•☁️   AWS | Azure | GCP | OpenStack\n\n•🐳   Docker | Jenkins | Kubernetes | Terraform\n\n•🛢   MySQL | Firebase\n\n•📈   Prometheus | Grafana\n\n•🔧   Jupyter Notebook | Visual Studio code | Git\n\n",
+                              style: GoogleFonts.montserrat(
+                                textStyle: TextStyle(color: Colors.white54),
+                              )),
                         ),
                       ],
                     ),

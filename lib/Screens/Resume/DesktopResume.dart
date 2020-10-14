@@ -32,7 +32,7 @@ class DesktopResume extends StatelessWidget {
                     child: FloatingActionButton.extended(
                       onPressed: () {
                         html.window.open(
-                            "https://drive.google.com/uc?export=download&id=1c2AB2cVBgNq79ms4uakiC3jWxKh1JMIb",
+                            "https://drive.google.com/uc?export=download&id=1wYBX4qraDFSAuoknE65m40R1Eg9MwU24",
                             'new tab');
                       },
                       label: Text("Download"),
