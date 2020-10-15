@@ -10,7 +10,7 @@ var blogdata = [
         "https://medium.com/@gauravmehta13/publishing-flutter-apps-to-play-store-easily-4dfff6ab7804"
   },
   {
-    "title": "Msic player built with flutter",
+    "title": "Music player built with flutter",
     "subtitle":
         "Made a Music Player using Flutter.This app has inbuilt access to Youtube Music, Gaana, Wynk Music and Jio Saavn . You can also run local Music Using this app",
     "imgurl":

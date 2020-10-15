@@ -17,18 +17,17 @@ class MobileHomePage extends StatelessWidget {
         ),
         child: Stack(
           children: <Widget>[
-            SingleChildScrollView(
-              child: Align(
-                alignment: Alignment.bottomRight,
-                child: Stack(
-                  children: <Widget>[
-                    Image(
-                      image: NetworkImage(
-                        "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/Assets/HomeView.jpg",
-                      ),
-                      fit: BoxFit.fitWidth,
+            Align(
+              child: Stack(
+                children: <Widget>[
+                  Image(
+                    image: NetworkImage(
+                      "https://raw.githubusercontent.com/gauravmehta13/Portfolio/master/Assets/HomeView.jpg",
                     ),
-                    Column(
+                    fit: BoxFit.fitWidth,
+                  ),
+                  SingleChildScrollView(
+                    child: Column(
                       children: [
                         SizedBox(
                           height: MediaQuery.of(context).size.height / 5,
@@ -43,7 +42,7 @@ class MobileHomePage extends StatelessWidget {
                                 children: [
                                   Align(
                                     alignment: Alignment.center,
-                                    child: Text('Hello, I\u0027m\nGaurav Yadav',
+                                    child: Text("Hello, I'm\nGaurav Yadav",
                                         style: GoogleFonts.montserrat(
                                           textStyle: TextStyle(
                                               color: Colors.white,
@@ -55,24 +54,54 @@ class MobileHomePage extends StatelessWidget {
                                     height: 30,
                                   ),
                                   Text(
-                                      'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
+                                      'An Engineering Student and a tech enthusiast working to better understand the core concepts behind different popular Technologies like Artificial Intelligence,DevOps,Cloud Computing etc.',
                                       style: GoogleFonts.montserrat(
                                         textStyle: TextStyle(
                                           color: Colors.white54,
                                         ),
                                       )),
                                   SizedBox(
-                                    height: 10,
+                                    height: 100,
                                   ),
+                                  Text('👨🏻‍💻 About Me',
+                                      style: GoogleFonts.montserrat(
+                                        textStyle: TextStyle(
+                                            color: Colors.white60,
+                                            fontWeight: FontWeight.bold),
+                                      )),
+                                  SizedBox(height: 20),
+                                  Text(
+                                      '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
+                                      style: GoogleFonts.montserrat(
+                                        textStyle:
+                                            TextStyle(color: Colors.white54),
+                                      )),
+                                  SizedBox(height: 100),
+                                  Text('🛠 Tech Stack',
+                                      style: GoogleFonts.montserrat(
+                                        textStyle: TextStyle(
+                                            color: Colors.white60,
+                                            fontWeight: FontWeight.bold),
+                                      )),
+                                  SizedBox(height: 20),
+                                  Text(
+                                      "•💻   Python | Dart | Flutter\n\n•☁️   AWS | Azure | GCP | OpenStack\n\n•🐳   Docker | Jenkins | Kubernetes | Terraform\n\n•🛢   MySQL | Firebase\n\n•📈   Prometheus | Grafana\n\n•🔧   Jupyter Notebook | Visual Studio code | Git\n\n",
+                                      style: GoogleFonts.montserrat(
+                                        textStyle:
+                                            TextStyle(color: Colors.white54),
+                                      )),
+                                  SizedBox(
+                                    height: 100,
+                                  )
                                 ],
                               ),
                             ),
                           ],
                         ),
                       ],
-                    )
-                  ],
-                ),
+                    ),
+                  ),
+                ],
               ),
             ),
             Topbar(),

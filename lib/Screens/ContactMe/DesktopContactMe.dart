@@ -133,19 +133,6 @@ class DesktopContactMe extends StatelessWidget {
                                     'new tab');
                               },
                             ),
-                            /* ClipOval(
-                              child: Material(
-                                color: Colors.blue, // button color
-                                child: InkWell(
-                                  splashColor: Colors.red, // inkwell color
-                                  child: SizedBox(
-                                      width: 56,
-                                      height: 56,
-                                      child: Icon(Icons.menu)),
-                                  onTap: () {},
-                                ),
-                              ),
-                            ),*/
                             IconButton(
                               icon: FaIcon(
                                 FontAwesomeIcons.telegram,
@@ -181,7 +168,7 @@ class DesktopContactMe extends StatelessWidget {
               ),
               Row(children: <Widget>[
                 Container(
-                    width: MediaQuery.of(context).size.width * 0.55,
+                    width: MediaQuery.of(context).size.width / 2,
                     height: MediaQuery.of(context).size.height - 50,
                     child: Column(
                         mainAxisAlignment: MainAxisAlignment.start,
@@ -253,7 +240,6 @@ class DesktopContactMe extends StatelessWidget {
                           ),
                         ])),
                 Container(
-                  //  color: Colors.red,
                   height: MediaQuery.of(context).size.height - 100,
                   child: WebsafeSvg.asset('assets/address.svg',
                       fit: BoxFit.contain),
