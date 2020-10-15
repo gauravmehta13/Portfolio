@@ -9,6 +9,9 @@
             box-sizing: border-box;
 }
 
+.pacman-div{
+    margin-top: 250px;
+}
 
 .la-pacman {
     display: block;
