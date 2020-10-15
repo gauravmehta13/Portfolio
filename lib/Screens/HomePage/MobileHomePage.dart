@@ -61,43 +61,53 @@ class MobileHomePage extends StatelessWidget {
                                         ),
                                       )),
                                   SizedBox(
-                                    height: 100,
+                                    height:
+                                        MediaQuery.of(context).size.height / 2,
                                   ),
-                                  Text('👨🏻‍💻 About Me',
-                                      style: GoogleFonts.montserrat(
-                                        textStyle: TextStyle(
-                                            color: Colors.white60,
-                                            fontWeight: FontWeight.bold),
-                                      )),
-                                  SizedBox(height: 20),
-                                  Text(
-                                      '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
-                                      style: GoogleFonts.montserrat(
-                                        textStyle:
-                                            TextStyle(color: Colors.white54),
-                                      )),
-                                  SizedBox(height: 100),
-                                  Text('🛠 Tech Stack',
-                                      style: GoogleFonts.montserrat(
-                                        textStyle: TextStyle(
-                                            color: Colors.white60,
-                                            fontWeight: FontWeight.bold),
-                                      )),
-                                  SizedBox(height: 20),
-                                  Text(
-                                      "•💻   Python | Dart | Flutter\n\n•☁️   AWS | Azure | GCP | OpenStack\n\n•🐳   Docker | Jenkins | Kubernetes | Terraform\n\n•🛢   MySQL | Firebase\n\n•📈   Prometheus | Grafana\n\n•🔧   Jupyter Notebook | Visual Studio code | Git\n\n",
-                                      style: GoogleFonts.montserrat(
-                                        textStyle:
-                                            TextStyle(color: Colors.white54),
-                                      )),
-                                  SizedBox(
-                                    height: 100,
-                                  )
                                 ],
                               ),
                             ),
                           ],
                         ),
+                        Container(
+                          padding: EdgeInsets.fromLTRB(50, 0, 0, 0),
+                          width: MediaQuery.of(context).size.width - 100,
+                          child: Column(
+                            crossAxisAlignment: CrossAxisAlignment.center,
+                            children: <Widget>[
+                              Text('👨🏻‍💻 About Me',
+                                  style: GoogleFonts.montserrat(
+                                    textStyle: TextStyle(
+                                        color: Colors.white70,
+                                        fontWeight: FontWeight.bold),
+                                  )),
+                              SizedBox(height: 20),
+                              Text(
+                                  '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.montserrat(
+                                    textStyle: TextStyle(color: Colors.white70),
+                                  )),
+                              SizedBox(height: 100),
+                              Text('🛠 Tech Stack',
+                                  style: GoogleFonts.montserrat(
+                                    textStyle: TextStyle(
+                                        color: Colors.white70,
+                                        fontWeight: FontWeight.bold),
+                                  )),
+                              SizedBox(height: 20),
+                              Text(
+                                  "•💻   Python | Dart | Flutter\n\n•☁️   AWS | Azure | GCP | OpenStack\n\n•🐳   Docker | Jenkins | Kubernetes | Terraform\n\n•🛢   MySQL | Firebase\n\n•📈   Prometheus | Grafana\n\n•🔧   Jupyter Notebook | Visual Studio code | Git\n\n",
+                                  textAlign: TextAlign.center,
+                                  style: GoogleFonts.montserrat(
+                                    textStyle: TextStyle(color: Colors.white70),
+                                  )),
+                              SizedBox(
+                                height: 100,
+                              )
+                            ],
+                          ),
+                        )
                       ],
                     ),
                   ),
