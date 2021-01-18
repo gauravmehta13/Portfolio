@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'Screens/Blog/Blog.dart';
 import 'Screens/ContactMe/ContactMe.dart';
 import 'Screens/HomePage/HomePage.dart';
+import 'Screens/Projects/Projects.dart';
 import 'Screens/Resume/Resume.dart';
 
 void main() {
@@ -18,6 +19,7 @@ class MyApp extends StatelessWidget {
           '/Resume': (context) => Resume(),
           '/Blog': (context) => Blog(),
           '/ContactMe': (context) => ContactMe(),
+          '/Projects': (context) => Projects(),
         },
         debugShowCheckedModeBanner: false,
         title: "Gaurav's Portfolio",

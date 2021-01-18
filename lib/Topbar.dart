@@ -45,6 +45,18 @@ class Topbar extends StatelessWidget {
                   ),
                   FlatButton(
                     onPressed: () {
+                      Navigator.pushNamed(context, '/Projects');
+                    },
+                    child: Text(
+                      'Projects',
+                      style: TextStyle(fontWeight: FontWeight.w600),
+                    ),
+                  ),
+                  SizedBox(
+                    width: 10,
+                  ),
+                  FlatButton(
+                    onPressed: () {
                       Navigator.pushNamed(context, '/ContactMe');
                     },
                     child: Text(
