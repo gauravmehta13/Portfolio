@@ -83,7 +83,7 @@ class MobileHomePage extends StatelessWidget {
                                   )),
                               SizedBox(height: 20),
                               Text(
-                                  '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
+                                  '•🔭   Currently Searching for a Job. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(color: Colors.white70),

@@ -52,52 +52,47 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
                     child: Column(
                       crossAxisAlignment: CrossAxisAlignment.start,
                       children: <Widget>[
-                        Text('Hello, I\u0027m\nGaurav Yadav',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(
-                                  color: Colors.white,
-                                  fontSize: 60,
-                                  fontWeight: FontWeight.w400),
-                            )),
+                        Text(
+                          'Hello, I\u0027m\nGaurav Yadav',
+                          style: TextStyle(
+                              color: Colors.white,
+                              fontSize: 60,
+                              fontWeight: FontWeight.w400),
+                        ),
                         SizedBox(
                           height: 30,
                         ),
                         Text(
                             'An Engineering Student and a tech enthusiast working \nto better understand the core concepts behind different \npopular Technologies like Artificial Intelligence,DevOps,\nCloud Computing etc.',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(
-                                color: Colors.white38,
-                              ),
+                            style: TextStyle(
+                              color: Colors.white38,
                             )),
                         SizedBox(height: 200),
-                        Text('👨🏻‍💻 About Me',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(
-                                  color: Colors.white60,
-                                  fontWeight: FontWeight.bold),
-                            )),
+                        Text(
+                          '👨🏻‍💻 About Me',
+                          style: TextStyle(
+                              color: Colors.white60,
+                              fontWeight: FontWeight.bold),
+                        ),
                         SizedBox(height: 20),
                         Text(
-                            '•🔭   Currently learning Data Science from Applied.ai. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(color: Colors.white54),
-                            )),
+                          '•🔭   Currently searching for a Job. \n\n•🤔   Actively contributing to various Open-Source Projects.\n\n•🎓   Completed my graduation from Rajasthan Technical University.\n',
+                          style: TextStyle(color: Colors.white54),
+                        ),
                         SizedBox(height: 200),
-                        Text('🛠 Tech Stack',
-                            style: GoogleFonts.montserrat(
-                              textStyle: TextStyle(
-                                  color: Colors.white60,
-                                  fontWeight: FontWeight.bold),
-                            )),
+                        Text(
+                          '🛠 Tech Stack',
+                          style: TextStyle(
+                              color: Colors.white60,
+                              fontWeight: FontWeight.bold),
+                        ),
                         SizedBox(height: 20),
                         SizedBox(
-                          height: 300,
-                          child: Text(
+                            height: 300,
+                            child: Text(
                               "•💻   Python | Dart | Flutter\n\n•☁️   AWS | Azure | GCP | OpenStack\n\n•🐳   Docker | Jenkins | Kubernetes | Terraform\n\n•🛢   MySQL | Firebase\n\n•📈   Prometheus | Grafana\n\n•🔧   Jupyter Notebook | Visual Studio code | Git\n\n",
-                              style: GoogleFonts.montserrat(
-                                textStyle: TextStyle(color: Colors.white54),
-                              )),
-                        ),
+                              style: TextStyle(color: Colors.white54),
+                            )),
                       ],
                     ),
                   ),

@@ -4,6 +4,7 @@ import 'Screens/Blog/Blog.dart';
 import 'Screens/ContactMe/ContactMe.dart';
 import 'Screens/HomePage/HomePage.dart';
 import 'Screens/Projects/Projects.dart';
+import 'Screens/Projects/apps.dart';
 import 'Screens/Resume/Resume.dart';
 
 void main() {
@@ -14,13 +15,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      initialRoute: '/',
+      initialRoute: '/Projects',
       routes: {
         '/': (context) => HomePage(),
         '/Resume': (context) => Resume(),
         '/Blog': (context) => Blog(),
         '/ContactMe': (context) => ContactMe(),
         '/Projects': (context) => Projects(),
+        '/Applications': (context) => Applications(),
       },
       debugShowCheckedModeBanner: false,
       title: "Gaurav's Portfolio",

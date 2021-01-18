@@ -19,7 +19,10 @@ class SideBar extends StatelessWidget {
           ),
           RotatedBox(
             quarterTurns: 3,
-            child: Text('Welcome  To  My  Portfolio'),
+            child: Text(
+              'Welcome  To  My  Portfolio',
+              style: TextStyle(color: Colors.white),
+            ),
           ),
           Spacer(),
           IconButton(

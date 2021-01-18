@@ -12,7 +12,9 @@ class DesktopProjects extends StatelessWidget {
             Row(
               children: [
                 RaisedButton(
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.pushNamed(context, '/Applications');
+                  },
                   materialTapTargetSize: MaterialTapTargetSize.shrinkWrap,
                   padding: EdgeInsets.all(0),
                   child: Container(
