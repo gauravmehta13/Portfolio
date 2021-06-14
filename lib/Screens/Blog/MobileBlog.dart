@@ -36,7 +36,7 @@ class _MobileBlogState extends State<MobileBlog> {
                 child: MaterialButton(
                   onPressed: () {
                     html.window
-                        .open(blogdata[index]['onpressedurl'], 'new tab');
+                        .open(blogdata[index]['onpressedurl']!, 'new tab');
                   },
                   padding: EdgeInsets.all(0),
                   child: Column(
@@ -52,12 +52,12 @@ class _MobileBlogState extends State<MobileBlog> {
                           ),
                           child: Image(
                               fit: BoxFit.fill,
-                              image: NetworkImage(blogdata[index]['imgurl'])),
+                              image: NetworkImage(blogdata[index]['imgurl']!)),
                         ),
                       ),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(5, 5, 5, 0),
-                        child: Text(blogdata[index]['title'],
+                        child: Text(blogdata[index]['title']!,
                             textAlign: TextAlign.center,
                             style: GoogleFonts.montserrat(
                               textStyle: TextStyle(
@@ -69,7 +69,7 @@ class _MobileBlogState extends State<MobileBlog> {
                       Spacer(),
                       Padding(
                         padding: const EdgeInsets.fromLTRB(5, 5, 5, 0),
-                        child: Text(blogdata[index]['subtitle'],
+                        child: Text(blogdata[index]['subtitle']!,
                             textAlign: TextAlign.center,
                             style: GoogleFonts.montserrat(
                               textStyle: TextStyle(
@@ -84,7 +84,7 @@ class _MobileBlogState extends State<MobileBlog> {
                         child: Row(
                           children: [
                             Spacer(),
-                            Text(blogdata[index]['date'],
+                            Text(blogdata[index]['date']!,
                                 style: GoogleFonts.montserrat(
                                   textStyle: TextStyle(
                                       color: Colors.white,

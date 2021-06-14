@@ -39,7 +39,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                   padding: EdgeInsets.all(0),
                   onPressed: () {
                     html.window
-                        .open(blogdata[index]['onpressedurl'], 'new tab');
+                        .open(blogdata[index]['onpressedurl']!, 'new tab');
                   },
                   child: Row(
                     children: <Widget>[
@@ -54,7 +54,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                           ),
                           child: Image(
                               fit: BoxFit.fitHeight,
-                              image: NetworkImage(blogdata[index]['imgurl'])),
+                              image: NetworkImage(blogdata[index]['imgurl']!)),
                         ),
                       ),
                       Container(
@@ -66,7 +66,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                             //crossAxisAlignment: CrossAxisAlignment.center,
                             children: [
                               Spacer(),
-                              Text(blogdata[index]['title'],
+                              Text(blogdata[index]['title']!,
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(
@@ -75,7 +75,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                                         fontWeight: FontWeight.w500),
                                   )),
                               Spacer(),
-                              Text(blogdata[index]['subtitle'],
+                              Text(blogdata[index]['subtitle']!,
                                   textAlign: TextAlign.center,
                                   style: GoogleFonts.montserrat(
                                     textStyle: TextStyle(
@@ -87,7 +87,7 @@ class _DesktopBlogState extends State<DesktopBlog> {
                               Row(
                                 children: [
                                   Spacer(),
-                                  Text(blogdata[index]['date'],
+                                  Text(blogdata[index]['date']!,
                                       style: GoogleFonts.montserrat(
                                         textStyle: TextStyle(
                                             color: Colors.white,

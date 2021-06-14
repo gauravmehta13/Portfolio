@@ -15,14 +15,15 @@ class _DesktopHomePageState extends State<DesktopHomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
         body: NotificationListener(
-      onNotification: (v) {
+      onNotification: (dynamic v) {
         if (v is ScrollUpdateNotification) {
           //only if scroll update notification is triggered
           setState(() {
-            toptext -= v.scrollDelta / 1.9;
-            topimg -= v.scrollDelta / 2;
+            toptext -= v.scrollDelta! / 1.9;
+            topimg -= v.scrollDelta! / 2;
           });
         }
+        return false;
       },
       child: Container(
         width: MediaQuery.of(context).size.width,

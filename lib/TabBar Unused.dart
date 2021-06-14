@@ -12,9 +12,9 @@ class HomeBarPage extends StatefulWidget {
 
 class _HomeBarPageState extends State<HomeBarPage>
     with SingleTickerProviderStateMixin {
-  TabController tabController;
+  TabController? tabController;
   final selectedColor = Colors.red;
-  int currentTab;
+  int? currentTab;
   @override
   void initState() {
     super.initState();
@@ -23,7 +23,7 @@ class _HomeBarPageState extends State<HomeBarPage>
   }
 
   void goTo(int index) {
-    this.tabController.animateTo(index);
+    this.tabController!.animateTo(index);
     setState(() {
       this.currentTab = index;
     });
